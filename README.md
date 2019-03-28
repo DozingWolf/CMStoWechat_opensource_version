@@ -1,0 +1,2 @@
+# CMStoWechat_opensource_version
+自己写的数据库到httpapi接口，去除公司内部信息后开源
