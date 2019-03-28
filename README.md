@@ -31,24 +31,43 @@ ORM获取到数据后利用MQ将数据传递至发送端，发送端考虑业务
 ## 4. 程序结构
 
 /BSDDB/                         -BDB存储文件
+
 /log/                           -日志文件
+
 /parameter/log_parameter.json   -日志配置文件
+
 /parameter/parameter.json       -程序主配置文件
+
 /parameter/SHA1                 -程序配置校验码
+
 /part_consumer/                 -MQ消费者端程序
+
 /part_producer/                 -MQ生产者端程序
+
 /tools/hashchecker.py           -hash校验程序
+
 /BerkeleyDB.py                  -封装BSDDB类
+
 /getData.py                     -ORM数据获取类
+
 /getToken.py                    -微信平台Token获取类
+
 /hashcheck.py                   -配置文件校验类
+
 /json2para.py                   -配置文件读取类
+
 /logger.py                      -日志类
+
 /mainMessage.py                 -数据库侧主程序，负责抓取数据
+
 /makeDataModel.py               -数据格式化类
+
 /sendMessage.py                 -封装消费者侧类
+
 /sendtoWechatMain.py            -消费者主类
+
 /initial step.md                -安装步骤
+
 ## 5. 鸣谢
 感谢在本项目中给我各种建议和支持的各位小伙伴，没有你们的建议不会有这个小工具的完工。
 
