@@ -1,0 +1,44 @@
+{
+    "version": "20190214.1140",
+    "auth": "Edmond.Chen",
+        "DB_readonly": {
+        "ip": "127.0.0.1",
+        "sid": "orcl",
+        "port": "1521",
+        "user": "user",
+        "passwd": "pw"
+    },
+    "DB_wrightonly": {
+        "ip": "127.0.0.1",
+        "sid": "orcl",
+        "port": "1521",
+        "user": "user",
+        "passwd": "pw"
+    },
+    "MQ": {
+        "ip": "127.0.0.1",
+        "port": "15672",
+        "user": "admin",
+        "passwd":"mqpw",
+        "exchange":"WECHAT",
+        "routingkey":"interface.001",
+        "queue":"INTF.SEND",
+        "heartbeat":"60"
+    },
+    "Wechat_interface": {
+        "gettokenurl": "tokenurl.com",
+        "sendmessageurl":"sendurl.com",
+        "corpid": "xxxxxxxxxxxxxxxxxx",
+        "secret": "yyyyyyyyyyyyyyyyyy"
+    },
+    "BerkeleyDB": {
+        "bdb_path":"BSDDB",
+        "Token_DB":"Token.DB",
+        "bdb_file_name_send_fail":"Test_IN_Fail.DB",
+        "SMW_IN_FAIL":"SMW_FAIL.DB",
+        "SMW_IN_SUCC":"SMW_SUCC.DB",
+        "bdb_file_name_send_succ":"Test_IN_Succ.DB",
+        "bdb_file_name_other":"Other.DB",
+        "bdb_test_db":"Test_db_20190222.DB"
+    }
+}

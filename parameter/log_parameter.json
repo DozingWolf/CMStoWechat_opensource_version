@@ -1,0 +1,12 @@
+{
+    "version": "20190224.1343",
+    "auth": "Edmond.Chen",
+    "mainMessage_log": {
+        "folder_path": "./log/",
+        "filename": "mainMessage_log.log"
+    },
+    "sendMessage_log": {
+        "folder_path": "./log/",
+        "filename": "sendMessage_log.log"
+    }
+}
